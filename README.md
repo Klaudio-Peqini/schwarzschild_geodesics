@@ -47,6 +47,7 @@ schwarzschild_geodesics/
 │       ├── orbits.py
 │       └── potentials.py
 ├── outputs/
+├── gjeodezika_schwarzschild_notebook.ipynb
 ├── main.py
 ├── pyproject.toml
 ├── requirements.txt
