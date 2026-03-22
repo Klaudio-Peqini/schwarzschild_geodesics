@@ -138,11 +138,11 @@ Këto figura mund të përfshihen drejtpërdrejt në raportin LaTeX.
 
 Për grimca test masive në planin ekuatorial përdorim:
 
-\[
+$$
 V_{\mathrm{eff}}(r)=\left(1-\frac{r_s}{r}\right)\left(c^2+\frac{L^2}{r^2}\right),
 \qquad
 r_s=\frac{2GM}{c^2}.
-\]
+$$
 
 ### 2. Ekuacioni radial i reduktuar
 
