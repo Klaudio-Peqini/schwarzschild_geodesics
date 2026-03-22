@@ -148,16 +148,16 @@ $$
 
 Për analizën numerike përdorim formën:
 
-\[
+$$
 \ddot r = -\frac{GM}{r^2} + \frac{L^2}{r^3}
 - \frac{3GM L^2}{c^2 r^4}.
-\]
+$$
 
 Krahasimi me rastin Njutonian:
 
-\[
+$$
 \ddot r = -\frac{GM}{r^2} + \frac{L^2}{r^3}
-\]
+$$
 
 lejon nxjerrjen e precesionit relativist.
 
