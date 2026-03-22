@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "schwarzschild-geodesics"
+version = "0.1.0"
+description = "Template pedagogjik per orbitat Schwarzschild dhe krahasimin me gravitetin Njutonian"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+include = ["schwarzschild_geodesics*"]
