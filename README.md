@@ -104,6 +104,7 @@ Mund të kontrolloni parametrat kryesorë drejtpërdrejt nga CLI:
 
 ```bash
 python3 main.py --mode orbit --mass 1.98847e30 --r0 4.6e10 --L 5.2e15 --tau-max 2.0e7 --samples 25000
+python3 main.py --mode orbit --mass 1.98847e30 --r0 4.6e10 --phi0 1.1 --vr0 3.0e07 --L 5.2e15 --tau-max 2.0e7 --samples 25000
 ```
 
 Parametrat kryesorë janë:
