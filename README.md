@@ -261,7 +261,7 @@ Nëse kërkohet një orbitë eliptike me perihel $r_p$ dhe ekscentricitet $e$, m
 $$
 L
 \approx
-\sqrt{G M r_p (1 + e)}
+\sqrt{GMr_p(1 + e)}
 $$
 
 Pastaj vendosen:
@@ -279,7 +279,7 @@ atëherë:
 $$
 L
 \approx
-1.86×10^15 m2/s
+1.86×10^{15} m{2}/s
 $$
 
 Pra:
