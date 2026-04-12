@@ -254,6 +254,39 @@ ose për efekt relativist më të fortë:
 python3 main.py --mode potential --mass 1.98847e30 --L 1.363e15
 ```
 
+### Rregull i shpejtë për të ndërtuar vetë raste të mira
+
+Nëse kërkohet një orbitë eliptike me perihel $r_p$ dhe ekscentricitet $e$, mund të përdoret:
+
+$$
+L
+\approx
+\sqrt{G M r_p (1 + e)}
+$$
+
+Pastaj vendosen:
+
+- `r0 = r_p`
+- `vr0 = 0`
+
+Shembull:
+
+- `r_p = 2.0e10`
+- `e = 0.3`
+
+atëherë:
+
+$$
+L
+\approx
+1.86×10^15 m2/s
+$$
+
+Pra:
+
+```
+python3 main.py --mode orbit --mass 1.98847e30 --r0 2.0e10 --vr0 0 --L 1.86e15 --tau-max 6.0e7 --samples 120000
+```
 
 ---
 
