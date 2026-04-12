@@ -196,6 +196,27 @@ python3 main.py --mode precession --mass 1.98847e30 --r0 4.6001e10 --phi0 0 --vr
 
 Ky rast është fizikisht i arsyeshëm, por precesioni për orbitë është shumë i vogël, prandaj vizualisht nuk del aq qartë sa në shembujt didaktikë.
 
+### Set praktik “precesion i dukshëm”
+
+Këtu efekti relativist shihet më qartë.
+
+- mass = 1.98847e30
+- r0 = 1.0e10
+- L ≈ 1.363e15
+- vr0 = 0
+
+```
+python3 main.py --mode orbit --mass 1.98847e30 --r0 1.0e10 --phi0 0 --vr0 0 --L 1.363e15 --tau-max 4.0e7 --samples 120000
+```
+
+Për precesion:
+
+```
+python3 main.py --mode precession --mass 1.98847e30 --r0 1.0e10 --phi0 0 --vr0 0 --L 1.363e15 --tau-max 4.0e7 --samples 120000
+```
+
+Ky është zakonisht kompromisi më i mirë mes stabilitetit numerik dhe precesionit të dukshëm.
+
 
 
 ---
