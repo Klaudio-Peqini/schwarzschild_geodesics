@@ -238,8 +238,21 @@ Komanda:
 python3 main.py --mode orbit --mass 1.98847e30 --r0 2.0e10 --phi0 0 --vr0 0 --L 1.63e15 --tau-max 6.0e7 --samples 100000
 ```
 
-Nëse zvoglohet pak L, orbita bëhet më eliptike; nëse rritet pak, bëhet më rrethore.
+Nëse zvoglohet pak `L`, orbita bëhet më eliptike; nëse rritet pak, bëhet më rrethore.
 
+### Vlera praktike për potencialin efektiv
+
+Për potencialin, mjafton të japësh një `L` të arsyeshëm. P.sh.:
+
+```
+python3 main.py --mode potential --mass 1.98847e30 --L 2.713e15
+```
+
+ose për efekt relativist më të fortë:
+
+```
+python3 main.py --mode potential --mass 1.98847e30 --L 1.363e15
+```
 
 
 ---
