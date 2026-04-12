@@ -225,9 +225,9 @@ Për orbitë rrethore klasike:
 
 
 $$
-V_{\mathrm{eff}}(r)=\left(1-\frac{r_s}{r}\right)\left(c^2+\frac{L^2}{r^2}\right),
-\qquad
-r_s=\frac{2GM}{c^2}.
+L_{circ}
+\approx
+\sqrt{G M r_0}
 $$
 
 $$
