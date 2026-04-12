@@ -223,9 +223,7 @@ Këtu bëhet dallimi mes orbitës stabile dhe asaj me ekscentricitet të vogël.
 
 Për orbitë rrethore klasike:
 
-$$
-L_{circ} \approx \sqrt{G M r_0}
-$$​
+$$L_{circ} \approx \sqrt{G M r_0}$$​
 
 për `r0 = 2.0e10 m` del afërsisht `L ≈ 1.63e15`.
 
