@@ -279,7 +279,7 @@ atëherë:
 $$
 L
 \approx
-1.86×10^{15} \, m^{2}/s
+1.86 \times 10^{15} \, \text{m}^{2}/\text{s}
 $$
 
 Pra:
