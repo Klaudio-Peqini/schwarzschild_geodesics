@@ -182,6 +182,22 @@ Kjo është bashkësia e parametrave të rastit klasik të precesionit të Mërk
 - L ≈ 2.713e15 m²/s
 - vr0 = 0
 
+Komanda:
+
+```
+python3 main.py --mode orbit --mass 1.98847e30 --r0 4.6001e10 --phi0 0 --vr0 0 --L 2.713e15 --tau-max 7.6e6 --samples 40000
+```
+
+Për precesion, një orbitë nuk mjafton. Provo:
+
+```
+python3 main.py --mode precession --mass 1.98847e30 --r0 4.6001e10 --phi0 0 --vr0 0 --L 2.713e15 --tau-max 1.5e8 --samples 250000
+```
+
+Ky rast është fizikisht i arsyeshëm, por precesioni për orbitë është shumë i vogël, prandaj vizualisht nuk del aq qartë sa në shembujt didaktikë.
+
+
+
 ---
 
 ## Rekomandime për zgjerim
