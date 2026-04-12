@@ -223,8 +223,15 @@ Këtu bëhet dallimi mes orbitës stabile dhe asaj me ekscentricitet të vogël.
 
 Për orbitë rrethore klasike:
 
+
 $$
-L_{circ} \approx \sqrt{G M r_0}
+V_{\mathrm{eff}}(r)=\left(1-\frac{r_s}{r}\right)\left(c^2+\frac{L^2}{r^2}\right),
+\qquad
+r_s=\frac{2GM}{c^2}.
+$$
+
+$$
+L_{circ}\approx\sqrt{G M r_0}
 $$​
 
 për `r0 = 2.0e10 m` del afërsisht `L ≈ 1.63e15`.
