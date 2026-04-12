@@ -217,6 +217,26 @@ python3 main.py --mode precession --mass 1.98847e30 --r0 1.0e10 --phi0 0 --vr0 0
 
 Ky është zakonisht kompromisi më i mirë mes stabilitetit numerik dhe precesionit të dukshëm.
 
+### Set praktik “orbitë pothuajse rrethore”
+
+Këtu bëhet dallimi mes orbitës stabile dhe asaj me ekscentricitet të vogël.
+
+Për orbitë rrethore klasike:
+
+$$
+L_{circ} \approx \sqrt{GMr0}
+$$​
+
+për `r0 = 2.0e10 m` del afërsisht `L ≈ 1.63e15`.
+
+Komanda:
+
+```
+python3 main.py --mode orbit --mass 1.98847e30 --r0 2.0e10 --phi0 0 --vr0 0 --L 1.63e15 --tau-max 6.0e7 --samples 100000
+```
+
+Nëse zvoglohet pak L, orbita bëhet më eliptike; nëse rritet pak, bëhet më rrethore.
+
 
 
 ---
