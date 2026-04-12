@@ -175,6 +175,12 @@ lejon nxjerrjen e precesionit relativist.
 
 ## Set praktik “Merkuri rreth Diellit”
 
+Kjo është bashkësia e parametrave të rastit klasik të precesionit të Mërkurit.
+
+- mass = 1.98847e30
+- r0 ≈ 4.6001e10 m
+- L ≈ 2.713e15 m²/s
+- vr0 = 0
 
 ---
 
