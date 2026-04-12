@@ -173,6 +173,11 @@ lejon nxjerrjen e precesionit relativist.
 
 ---
 
+## Set praktik “Merkuri rreth Diellit”
+
+
+---
+
 ## Rekomandime për zgjerim
 
 Studentët mund ta zgjerojnë projektin me:
