@@ -1,4 +1,4 @@
-# schwarzschild_geodesics                     
+# schwarzschild_geodesics                      
 
 Paketë Python për studimin numerik të gjeodezikëve në hapësirë-kohë Schwarzschild, e ndërtuar si **template profesional për studentët e vitit të parë Master në Fizikë**, në kuadër të lëndës **Relativiteti i Përgjithshëm**.
 
